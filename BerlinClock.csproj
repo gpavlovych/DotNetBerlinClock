@@ -50,6 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\BerlinClockFeatureSteps.cs" />
+    <Compile Include="Classes\LampRowBuilder.cs" />
+    <Compile Include="Classes\LampRowDrawer.cs" />
+    <Compile Include="Classes\ILampRowDrawer.cs" />
+    <Compile Include="Classes\ITime.cs" />
+    <Compile Include="Classes\ITimeParser.cs" />
+    <Compile Include="Classes\Time.cs" />
+    <Compile Include="Classes\TimeParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BDD\BerlinClockFeatureSteps.feature.cs">
       <AutoGen>True</AutoGen>
